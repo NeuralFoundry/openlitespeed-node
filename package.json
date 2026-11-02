@@ -1,0 +1,44 @@
+{
+  "name": "openlitespeed-node",
+  "version": "1.0.0",
+  "description": "Run Node.js apps behind OpenLiteSpeed on Windows with automatic start file, framework and module detection.",
+  "main": "lsnode.js",
+  "bin": {
+    "ols-node": "bin/ols-node.js"
+  },
+  "files": [
+    "lsnode.js",
+    "bin/"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18.17"
+  },
+  "keywords": [
+    "openlitespeed",
+    "litespeed",
+    "lsnode",
+    "nodejs",
+    "windows",
+    "app-server",
+    "reverse-proxy",
+    "express",
+    "nextjs",
+    "fastify",
+    "koa",
+    "hono",
+    "web-server"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NeuralFoundry/openlitespeed-node.git"
+  },
+  "homepage": "https://github.com/NeuralFoundry/openlitespeed-node#readme",
+  "bugs": {
+    "url": "https://github.com/NeuralFoundry/openlitespeed-node/issues"
+  },
+  "author": "NeuralFoundry",
+  "license": "MIT"
+}
